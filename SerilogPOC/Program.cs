@@ -12,7 +12,7 @@ namespace SerilogPOC
     {
         private const string AspNetCoreEnvVarName = "ASPNETCORE_ENVIRONMENT";
         private const string AppNameEnvVarName = "APPLICATION_NAME";
-        private const string AppNameFallback = "Serilog POC - Application Test";
+        private const string AppNameFallback = "Serilog POC - Application Test...";
         public static Dictionary<string, string> EnvironmentVariablesToLog { get; set; } =
             new Dictionary<string, string>
             {
